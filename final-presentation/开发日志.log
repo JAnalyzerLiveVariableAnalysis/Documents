@@ -1,0 +1,25 @@
+定值到达分析：
+
+- 修改了gui.astViewer包中TestASTViewer.java文件，完善GUI，使得GUI具有定值到达分析功能，活跃变量分析功能，以及对应的显示界面。
+
+- 修改了nameTable.visitor包中的NameScopeVisitor.java文件，以及修改nameTable包中的NameTableManager.java文件，使得管理列表包含vistor并使得从vistor那里获得对应的方法列表集合，并使得根据文件路径生成名字管理表的功能更加完善。
+
+- 修改了graph.cfg包中的ControlFlowGraph.java文件，增加了关于定值到达分析的结果写到对应.dot文件的函数。
+
+- 修改了graph.cfg.analyzer包中的TestCFGCreator.java文件，增加了具体实现最大定值到达分析和定值到达分析功能的函数。
+
+- 修改了gui.toolkit包中的FileChooserAndOpener.java文件，增加了具有打开文件以及获取选定文件的父目录功能的函数。
+
+
+活跃变量分析：
+
+- 新增并修改了LiveVariableDefinition，添加了NameReference,NameDefinition,ExecutionNode,并添加了相应操作
+	> LiveVariableDefinition.java
+- 新增并完善了LiveVariableRecorder中的基本操作
+	> LiveVariableRecorder.java
+- 实现了程序执行点DefList和UseList的查找 
+	> LiveVariableAnalyzer.java
+- 完成了每个程序执行点LiveInList和LiveOutList的计算
+	> LiveVariableAnalyzer.java
+- 活跃变量分析的可视化
+	> ControlFlowGraph.java

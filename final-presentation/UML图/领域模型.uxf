@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>533</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>源代码文件
+--
+文件名
+文件内容</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>975</x>
+      <y>546</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>名字表
+--
+名字</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>559</y>
+      <w>247</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+create &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1274</x>
+      <y>546</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>名字实体
+--
+名字定义
+名字引用</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1092</x>
+      <y>559</y>
+      <w>208</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>299</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>定值到达集
+--
+gen
+kill
+new</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>793</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>活跃变量集
+--
+结点的活跃变量</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>390</y>
+      <w>91</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+has ^</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>624</y>
+      <w>91</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+has v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>338</y>
+      <w>312</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0;220.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>611</y>
+      <w>286</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;170.0;200.0;170.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>546</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>控制流图
+--
+recorder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>624</y>
+      <w>286</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt; store</panel_attributes>
+    <additional_attributes>200.0;170.0;10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>338</y>
+      <w>286</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt; store</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0;10.0;160.0</additional_attributes>
+  </element>
+</diagram>
