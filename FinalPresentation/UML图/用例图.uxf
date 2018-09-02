@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>15</zoom_level>
+  <zoom_level>12</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>315</x>
-      <y>540</y>
-      <w>90</w>
-      <h>165</h>
+      <x>396</x>
+      <y>468</y>
+      <w>72</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>Actor</panel_attributes>
     <additional_attributes/>
@@ -15,32 +15,32 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>660</x>
-      <y>375</y>
-      <w>180</w>
-      <h>60</h>
+      <x>672</x>
+      <y>336</y>
+      <w>144</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>定值到达分析</panel_attributes>
+    <panel_attributes>选择定值到达分析</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>660</x>
-      <y>735</y>
-      <w>180</w>
-      <h>60</h>
+      <x>672</x>
+      <y>624</y>
+      <w>144</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>活跃变量分析</panel_attributes>
+    <panel_attributes>选择活跃变量分析</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>405</y>
-      <w>300</w>
-      <h>210</h>
+      <x>456</x>
+      <y>360</y>
+      <w>240</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;120.0;180.0;10.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>570</y>
-      <w>300</w>
-      <h>225</h>
+      <x>456</x>
+      <y>492</y>
+      <w>240</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;180.0;130.0</additional_attributes>
@@ -59,10 +59,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>825</x>
-      <y>300</y>
-      <w>255</w>
-      <h>135</h>
+      <x>804</x>
+      <y>276</y>
+      <w>204</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
@@ -71,21 +71,21 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1050</x>
-      <y>285</y>
-      <w>180</w>
-      <h>60</h>
+      <x>984</x>
+      <y>264</y>
+      <w>144</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>查找定值表达式</panel_attributes>
+    <panel_attributes>选择分析文件</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>825</x>
-      <y>375</y>
-      <w>240</w>
-      <h>60</h>
+      <x>804</x>
+      <y>336</y>
+      <w>192</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
@@ -94,21 +94,21 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1035</x>
-      <y>375</y>
-      <w>210</w>
-      <h>60</h>
+      <x>972</x>
+      <y>336</y>
+      <w>168</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>获取结点表达式定值</panel_attributes>
+    <panel_attributes>查看分析结果</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>825</x>
-      <y>390</y>
-      <w>255</w>
-      <h>135</h>
+      <x>804</x>
+      <y>348</y>
+      <w>204</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
@@ -117,127 +117,93 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1050</x>
-      <y>465</y>
+      <x>984</x>
+      <y>408</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>查看控制流图</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>804</x>
+      <y>552</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>972</x>
+      <y>540</y>
       <w>180</w>
-      <h>60</h>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>确认根源到达定值</panel_attributes>
+    <panel_attributes>选择分析文件</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>972</x>
+      <y>612</y>
+      <w>180</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>查看分析结果</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>825</x>
-      <y>600</y>
-      <w>240</w>
-      <h>195</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;110.0;140.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1035</x>
-      <y>585</y>
-      <w>225</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>获取当前结点的前驱</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1035</x>
-      <y>660</y>
-      <w>225</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>获取当前结点的后继</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>825</x>
-      <y>675</y>
-      <w>240</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;60.0;140.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1035</x>
-      <y>885</y>
-      <w>240</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>获取当前结点活跃变量</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>825</x>
-      <y>750</y>
-      <w>240</w>
-      <h>195</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1020</x>
-      <y>735</y>
-      <w>255</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>获取当前定义的变量</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1020</x>
-      <y>810</y>
-      <w>255</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>获取当前结点使用的变量</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>825</x>
-      <y>735</y>
-      <w>225</w>
+      <x>804</x>
+      <y>612</y>
+      <w>192</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+    <additional_attributes>10.0;30.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>960</x>
+      <y>684</y>
+      <w>204</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>查看控制流图</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>825</x>
-      <y>750</y>
-      <w>225</w>
-      <h>120</h>
+      <x>804</x>
+      <y>636</y>
+      <w>180</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>612</x>
+      <y>192</y>
+      <w>600</w>
+      <h>576</h>
+    </coordinates>
+    <panel_attributes>JAnalyzer平台
+halign=left</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
